@@ -1,0 +1,161 @@
+.header {
+    display: grid;
+    background-color: #F9F6F1;
+    grid-area: header;
+    height: 60px;
+    color: black;
+}
+
+.content1 {
+    grid-area: content1;
+    background-color: #F9F6F1;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+}
+button {
+    width: 240px;
+    height: 55px;
+    left: 405px;
+    top: 419px;
+    background: #D7B399;
+    color: white;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+}
+
+.content2 {
+    grid-area: content2;
+    background-color: #F9F6F1;
+}
+
+.content3 {
+    grid-area: content3;
+    height: 235px;
+    background-color: black;
+    color: white;
+
+}
+
+h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+h4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+}
+
+h5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+}
+
+.content4 {
+    grid-area: content4;
+
+}
+
+.content5 {
+    grid-area: content5;
+
+
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+}
+
+.footer {
+    display: grid;
+    grid-area: footer;
+    background-color: #212121;
+    color: white;
+    height: 311px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+h6 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.section2,
+.section3,
+.section4,
+.section5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 60px;
+
+
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    height: 90vh;
+    grid-template-areas: "header header"
+        "content1 content2"
+        "content3 content3"
+        "content4 content5"
+        "footer footer";
+    padding: 10px;
